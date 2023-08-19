@@ -4,4 +4,4 @@
 MAU DONG DI JEBOL INSTALAN NYA
 
 
-wget https://raw.githubusercontent.com/AdaraS14/SC-Rd2/main/main.sh && chmod +x main.sh && ./main.sh
+apt --fix-missing update && apt update && apt upgrade -y && apt install -y wget screen && wget -q wget https://raw.githubusercontent.com/AdaraS14/SC-Rd2/main/main.sh && chmod +x main.sh && ./main.sh
